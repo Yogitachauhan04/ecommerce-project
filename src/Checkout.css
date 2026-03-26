@@ -1,0 +1,139 @@
+.checkout-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.billing, .order-summary {
+  flex: 1 1 300px;
+  min-width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.billing input, .billing select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color :rgb(247, 247, 247)
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.item-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.item-left img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item-info p {
+  margin: 0;
+  cursor: pointer;
+  
+}
+
+.item-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.item-right button {
+  background: #ff4d4f;
+  border: none;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.summary {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.summary div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.total {
+  font-size: 18px;
+}
+
+.place-order {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #53062e;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .checkout-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .billing, .order-summary {
+    padding: 15px;
+  }
+
+  .item-left img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .place-order {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .billing input, .billing select {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .item-left img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .item-info p {
+    font-size: 14px;
+  }
+
+  .place-order {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+

@@ -1,0 +1,623 @@
+.flash-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.flashhead{
+ padding-bottom: 10px;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+.flashhead p.label{
+  font-size: 25px;
+  color: #b4086a;
+  font-weight: 600;
+}
+
+.flashhead h2{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.timer{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.timing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timing span{
+  padding: 10px 18px;
+  font-size: 25px;
+  font-weight: 700;
+  background:#f3f3f3;
+  border-radius: 8px;
+}
+.timing p{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.colon{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/******** slider & grid *********/
+.flashsale-container{
+  width: 100%;
+  margin: auto;
+  padding: 0px 0;
+  position: relative;
+  overflow: hidden;
+}
+.flashsale-grid{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+  margin-top: 25px;
+  justify-items: center;
+}
+.flashsale-slide {
+  width: 100% !important;
+}
+.flashsale-card{
+  border-radius: 12px;
+  background: #fffefe;
+  padding-bottom: 15px;
+  text-align: center;
+  transition: 0.3s ease;
+  width: 100%;
+
+
+}
+.flashsale-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+}
+.image-container{
+  width: 100%;
+  position: relative;
+}
+.flashsale-image{
+  width: 100%;
+  max-height: 210px;
+  object-fit: contain;
+   transition: transform 0.3s ease;
+}
+.discount{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background:#e8186f;
+  padding: 3px 8px;
+  font-size: 16px;
+  color:white;
+  border-radius: 4px;
+}
+
+.flashsale-content h3{
+    margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+.flashsale-content p{
+  color: #181818;
+  font-size: 15px;
+  font-weight: 500;
+}
+.oldprice{
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 5px;
+}
+.icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 10;
+}
+.icon-btn {
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+.icons i {
+  background: #fff;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+}
+.icons i:hover {
+  background: rgb(224, 4, 106);
+  color: white;
+}
+.rating{
+  font-size: 18px;
+  color: gold;
+}
+
+.addbtn{
+   color: #fff;
+  border: none;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+  background-color: #070707;
+  width: 150px;
+  height: 35px;
+  font-size: 16px;
+  margin-top: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-btn{
+  text-align:center;
+  margin-top: 25px;
+  font-size: 28px;
+}
+.view-btn button{
+  background: #9f0363;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.section1{
+  border-bottom: 2px solid #e2e2e2;
+  width: 100%;
+  margin-top: 20px;
+}
+/* ---------- SLIDER ARROWS ---------- */
+.slick-prev,
+.slick-next {
+  background-color: #791051;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #e8186f;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  font-size: 20px;
+}
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+height: auto;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-slide {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media(min-width:1100px){
+    .flashsale-grid{
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  .flashsale-container{
+    width: 100%;
+    padding: 0px 0;
+  }
+
+  .flash-header{
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .flashhead p.label{
+    font-size: 20px;
+  }
+
+  .flashhead h2{
+    font-size: 28px;
+    margin-top: -5px;
+  }
+
+  .timer .timing span{
+    font-size: 20px;
+    padding: 8px 14px;
+  }
+
+  .timer .timing p{
+    font-size: 15px;
+  }
+
+  /* ----- Cards ----- */
+  .flashsale-card{
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .flashsale-image{
+    max-height: 170px;
+  }
+
+  .flashsale-content h3{
+    font-size: 16px;
+  }
+
+  .flashsale-content p{
+    font-size: 14px;
+  }
+
+  .rating{
+    font-size: 14px;
+  }
+
+  .addbtn{
+    font-size: 14px;
+    width: 130px;
+    height: 32px;
+  }
+
+  /* Gap reduce */
+  .flashsale-grid{
+    gap: 10px;
+  }
+
+  .view-btn button{
+    padding: 8px 18px;
+    font-size: 16px;
+  }
+
+}
+@media(max-width:1200px){
+  .flashsale-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .flashsale-image{
+    max-height: 180px;
+  }
+}
+@media(max-width:1000px){
+  .flashsale-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .flashsale-image{
+    max-height: 180px;
+  }
+}
+/* ===================== 992px (TABLET LANDSCAPE) ===================== */
+@media(max-width:992px){
+  .flashsale-grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .flashsale-image{
+    max-height: 180px;
+  }
+}
+/* ===================== 768px (TABLET PORTRAIT) ===================== */
+@media(max-width:768px){
+  .flash-header{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .flashsale-container{
+    width: 95%;
+  }
+
+  .flashsale-grid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+  }
+
+  .flashsale-image{
+    max-height: 160px;
+  }
+}
+
+@media(max-width:576px){
+  .flashsale-grid{ 
+    grid-template-columns: repeat(1,1fr); 
+  }
+  .flashsale-image{ 
+    max-height:140px 
+  }
+  .addbtn{ 
+    font-size:14px;
+    height: 30px;
+  }
+}
+/* ===================== 480px (SMALL MOBILE) ===================== */
+@media(max-width:480px){
+  .flashsale-grid{
+    gap: 10px;
+  }
+
+  .flashsale-image{
+    max-height:120px;
+  }
+
+  .flashsale-content h3{
+    font-size: 17px;
+    height: 35px;
+  }
+
+  .addbtn{
+    width: 120px;
+    font-size: 13px;
+    height: 30px;
+  }
+}
+/* ===================== 360px – 320px (VERY SMALL PHONES) ===================== */
+@media(max-width:320px){
+
+  .flashsale-grid{
+    gap: 8px;
+  }
+
+  .flashsale-image{
+    max-height: 110px;
+  }
+
+  .flashsale-content h3{
+    font-size: 17px;
+    height: 32px;
+  }
+
+  .addbtn{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  
+  .flash-header{
+    padding: 10px 8px;   /* padding kam */
+    text-align: center; /* center align */
+  }
+
+  .flashhead{
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .flashhead h2{
+    font-size: 22px;
+    margin: 0;        
+  }
+
+  .flashhead .label{
+    margin: 0;
+    font-size: 12px;
+  }
+}
+/* ---------- CLOSE BUTTON FOR VIEW ALL ---------- */
+.showall-wrapper{
+  position: relative;
+  width: 100%;
+  padding: 30px;
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: rgb(8, 8, 8);
+  border: none;
+  font-size: 28px;
+  font-weight: 500;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 20;
+  transition: 0.3s ease;
+    background:#a39d9d;
+}
+
+.close-button:hover {
+  background: #e74d95;
+}
+
+
+/*category*/
+.section{
+    border-bottom: 2px solid #e2e2e2;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+ .cc{
+    padding-bottom: 40px;
+  padding-left: 10px;
+ }
+.category-section{
+    width: 98%;
+    margin: auto;
+    margin-top: 25px;
+}
+.cat-label{
+    color: #94306b;
+    font-size: 24px;
+    font-weight: 600;
+    gap: 2px;
+}
+.category-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.arrow{
+    display: flex;
+    gap: 8px;
+}
+.arrow-btn{
+    width: 38px;
+    height: 38px;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.category-container::-webkit-scrollbar{
+display: none;
+}
+.category-container{
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.category-card{
+    min-width: 230px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 18px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    border:1px solid #ccc;
+    
+}
+.category-card i{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.category-card p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.category-card.active{
+    background-color: #791051;
+    color: #fff;
+    border: none;
+}
+.category-card:hover{
+    border-color: #791051;
+    background-color: #b6418d;
+}
+@media (max-width:1000px) {
+    .category-section{
+        width: 95%;
+    }
+    .category-card{
+        min-width: 150px;
+        font-size: 16px;
+        padding: 14px 0;
+    }
+    .category-card i{
+        font-size: 22px;
+    }
+}
+@media (max-width:768px) {
+    .category-header{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center
+    }
+    .arrow{
+        margin-top: 10px;
+    }
+    .category-container{
+        gap: 14px;
+    }
+    .category-card{
+        min-width: 110px;
+        padding: 12px 0px;
+    }
+    .category-card i{
+        font-size: 20px;
+    }
+}
+@media (max-width: 360px) {
+
+  /* section spacing kam */
+  .section{
+    margin: 12px 0;
+    padding-bottom: 12px;
+  }
+
+  .cc{
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .category-section{
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /* header center */
+  .category-header{
+    gap: 10px;
+    padding: 0 8px;
+  }
+
+  .cat-label{
+    font-size: 18px;
+  }
+
+  /* arrows chhote */
+  .arrow-btn{
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .category-container{
+    gap: 10px;
+    padding: 6px 6px 10px;
+    justify-content: flex-start; 
+  }
+
+  /* cards proper size */
+  .category-card{
+    min-width: 90px;
+    padding: 10px 6px;
+    font-size: 14px;
+  }
+
+  .category-card i{
+    font-size: 18px;
+  }
+
+  .category-card p{
+    font-size: 15px;
+    margin-top: 6px;
+  }
+}
+

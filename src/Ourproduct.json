@@ -1,0 +1,98 @@
+[
+  {
+    "id": 31,
+    "name": "Quilted satin jacket",
+    "images": ["/b1.png", "/b1.png"],
+    "price": 620,
+    "oldprice": 1200,
+    "discount": "55%",
+    "rating": 3.5,
+    "description": "Stylish quilted satin jacket perfect for winter fashion and daily wear.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#000000", "#6c757d", "#d63384"]
+  },
+  {
+    "id": 32,
+    "name": "Gp11 shooter gamepad",
+    "images": ["/b2.png", "/b2.png"],
+    "price": 920,
+    "oldprice": 1200,
+    "discount": "30%",
+    "rating": 3,
+    "description": "High performance shooter gamepad designed for smooth and immersive gaming.",
+    "sizes": ["Standard"],
+    "colors": ["#000000", "#198754"]
+  },
+  {
+    "id": 33,
+    "name": "Jr. Zoom soccer cleats",
+    "images": ["/b3.png", "/b3.png"],
+    "price": 370,
+    "oldprice": 500,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Lightweight soccer cleats providing excellent grip and comfort for young players.",
+    "sizes": ["6", "7", "8", "9"],
+    "colors": ["#0d6efd", "#ffc107"]
+  },
+  {
+    "id": 34,
+    "name": "Kids electric car",
+    "images": ["/b4.png", "/b4.png"],
+    "price": 375,
+    "oldprice": 400,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Fun and safe electric car for kids with smooth driving experience.",
+    "sizes": ["Kids"],
+    "colors": ["#ff0000", "#0000ff", "#ffffff"]
+  },
+  {
+    "id": 35,
+    "name": "Asus FHD gaming laptop",
+    "images": ["/b5.png", "/b5.png"],
+    "price": 120,
+    "oldprice": 200,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Powerful gaming laptop with full HD display for high performance gaming.",
+    "sizes": ["15-inch"],
+    "colors": ["#000000", "#343a40"]
+  },
+  {
+    "id": 36,
+    "name": "Canon EOS DSLR Camera",
+    "images": ["/b6.png", "/b6.png"],
+    "price": 920,
+    "oldprice": 1200,
+    "discount": "30%",
+    "rating": 3.5,
+    "description": "Professional DSLR camera delivering high quality photos and videos.",
+    "sizes": ["Standard"],
+    "colors": ["#000000"]
+  },
+  {
+    "id": 37,
+    "name": "Bird dry dog food",
+    "images": ["/b7.png", "/b7.png"],
+    "price": 370,
+    "oldprice": 500,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Nutritious dry dog food that supports healthy growth and digestion.",
+    "sizes": ["1kg", "3kg", "5kg"],
+    "colors": ["#795548", "#ffc107"]
+  },
+  {
+    "id": 38,
+    "name": "Curology product set",
+    "images": ["/b8.png", "/b8.png"],
+    "price": 375,
+    "oldprice": 400,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Complete skincare product set for healthy and glowing skin.",
+    "sizes": ["Small", "Medium"],
+    "colors": ["#ffffff", "#e83e8c"]
+  }
+]

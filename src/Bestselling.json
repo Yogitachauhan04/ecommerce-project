@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "The north coat",
+    "images": ["/a1 (3).svg", "/a1 (3).svg"],
+    "price": 120,
+    "oldprice": 200,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Warm and stylish winter coat made with premium fabric, perfect for daily wear in cold weather.",
+    "colors": ["#000000", "#ff4d6d"],
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 2,
+    "name": "Gucci duffle bag",
+    "images": ["/a1 (2).svg", "/a1 (2).svg"],
+    "price": 920,
+    "oldprice": 1200,
+    "discount": "30%",
+    "rating": 3.5,
+    "description": "Luxury duffle bag with spacious compartments, ideal for travel, gym, and everyday use.",
+    "colors": ["#000000", "#ff4d6d"],
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 3,
+    "name": "RGB Liquid CPU Cooler",
+    "images": ["/a1 (1).svg", "/a1 (1).svg"],
+    "price": 370,
+    "oldprice": 500,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "High-performance RGB liquid CPU cooler designed for efficient cooling and enhanced gaming setup looks.",
+    "colors": ["#000000", "#ff4d6d"],
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 4,
+    "name": "small book self",
+    "images": ["/a1 (4).svg", "/a1 (4).svg"],
+    "price": 375,
+    "oldprice": 400,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Compact and modern bookshelf perfect for organizing books, decor items, and small accessories.",
+    "colors": ["#000000", "#ff4d6d"],
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 5,
+    "name": "The north coat",
+    "images": ["/a1 (3).svg", "/a1 (3).svg"],
+    "price": 120,
+    "oldprice": 200,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Classic winter coat offering comfort, warmth, and durability for everyday outdoor use.",
+    "colors": ["#000000", "#ff4d6d"],
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 6,
+    "name": "Gucci duffle bag",
+    "images": ["/a1 (2).svg", "/a1 (2).svg"],
+    "price": 920,
+    "oldprice": 1200,
+    "discount": "30%",
+    "rating": 3.5,
+    "description": "Premium-quality duffle bag with elegant design, suitable for travel and daily essentials.",
+    "colors": ["#000000", "#ff4d6d"],
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 7,
+    "name": "RGB Liquid CPU Cooler",
+    "images": ["/a1 (4).svg", "/a1 (4).svg"],
+    "price": 370,
+    "oldprice": 500,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Advanced liquid CPU cooler with RGB lighting for powerful cooling and stylish PC builds.",
+    "colors": ["#000000", "#ff4d6d"],
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 8,
+    "name": "small book self",
+    "images": ["/a1 (4).svg", "/a1 (4).svg"],
+    "price": 375,
+    "oldprice": 400,
+    "discount": "30%",
+    "rating": 4.5,
+    "description": "Minimalist small bookshelf ideal for home or office to keep books and decor neatly arranged.",
+    "colors": ["#000000", "#ff4d6d"],
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  }
+]

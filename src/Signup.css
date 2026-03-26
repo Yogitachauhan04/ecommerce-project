@@ -1,0 +1,268 @@
+.signup-container{
+    display: flex;
+   
+    width: 100%;
+     justify-content: center;
+  align-items: center;
+}
+.signup-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.ttimage{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sideimage{
+ width: 100%;
+ max-width: 500px;
+}
+.sideimage1{
+ width: 100%;
+ max-width: 420px;
+}
+.signup-form {
+  width: 45%;
+  padding: 80px;
+}
+
+.signup-form h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.signup-form p {
+  color: #555;
+}
+
+.create-account-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #902855;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  background: white;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.google-btn img {
+  width: 20px;
+}
+
+.login-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-text a {
+  color: #000;
+  font-weight: 600;
+}
+
+
+@media (max-width: 480px) {
+
+  .signup-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .ttimage {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .sideimage {
+    width: 65%;
+  }
+
+  .signup-form {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .signup-form h2 {
+    font-size: 22px;
+  }
+
+  .signup-form p {
+    font-size: 14px;
+  }
+
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  .create-account-button {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .google-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .google-btn img {
+    width: 16px;
+  }
+
+  .login-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .sideimage {
+    width: 75%;
+  }
+
+  .signup-form{
+    padding: 15px;
+  }
+
+  input {
+    font-size: 13px;
+    padding: 9px;
+  }
+
+  .create-account-button,
+  .google-btn {
+    padding: 9px;
+    font-size: 14px;
+  }
+
+  .signup-form {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .signup-container { flex-direction: column; padding: 20px; }
+  .ttimage { width: 100%; padding: 10px 0; }
+  .sideimage { width: 70%; }
+  .signup-form { width: 100%; padding: 20px; text-align: center; }
+  .signup-form h2 { font-size: 24px; }
+  .signup-form p { font-size: 15px; }
+  input { font-size: 14px; padding: 10px; margin: 10px 0; }
+  .create-account-button, .google-btn { font-size: 14px; padding: 10px; }
+}
+/* -------- Forgot Password Modal -------- */
+
+.forgot-text {
+  margin-top: 12px;
+  text-align: right;
+  color: #902855;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Overlay */
+.modal-overlay1 {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal Box */
+.modal-box1 {
+  width: 380px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+/* Inputs */
+.modal-box1 input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Buttons */
+.modal-actions1 {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.modal-actions1 button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: #ddd;
+}
+
+.save-btnn1 {
+  background: #902855;
+  color: white;
+}
+
+/* 📱 320px Responsive */
+@media (max-width: 480px) {
+  .modal-box1 {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .forgot-text {
+    font-size: 13px;
+  }
+}
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #555;
+}
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}

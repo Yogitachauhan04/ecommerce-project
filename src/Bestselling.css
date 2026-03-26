@@ -1,0 +1,414 @@
+.bestsale {
+  width: 100%;
+  margin: auto;
+}
+
+/* ---------- HEADER ---------- */
+.bestsale-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+   padding-bottom: 40px;
+  padding-left: 30px;
+
+}
+
+.label {
+  color: #94306b;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.bestsale-header h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #222;
+}
+
+.section1 {
+  border-bottom: 2px solid #e2e2e2;
+  margin: 20px 0;
+  padding-bottom: 10px;
+}
+
+/* ---------- CONTAINER ---------- */
+.bestsale-container {
+  width: 100%;
+  margin: auto;
+  padding: 30px 0;
+  position: relative;
+    overflow: hidden;
+}
+/* ---------- CARD ---------- */
+.bestsale-card {
+  border-radius: 12px;
+  text-align: center;
+  padding-bottom: 15px;
+  background: #fffefe;
+  transition: 0.3s ease;
+    width: 100%;
+}
+.bestsale-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+.bestsale-slide {
+  width: 100% !important;
+}
+/* ---------- IMAGE --------- */
+.image-container {
+  width: 100%;
+  position: relative;
+}
+.bestsale-image {
+  width: 100%;
+  max-height: 210px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+/* ---------- DISCOUNT & ICONS ---------- */
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #e8186f;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  z-index: 10;
+}
+
+.icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 10;
+}
+.icons i {
+  background: #fff;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+}
+.icons i:hover {
+  background: rgb(224, 4, 106);
+  color: white;
+}
+
+/* ---------- CONTENT ---------- */
+.bestsale-content h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.bestsale-content p {
+  color: #181818;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.oldprice {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 5px;
+}
+
+.rating {
+  color: gold;
+  font-size: 18px;
+}
+
+/* ---------- BUTTON ---------- */
+.addbtn {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+  background-color: #070707;
+  width: 150px;
+  height: 35px;
+  font-size: 16px;
+  margin-top: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addbtn:hover {
+  background: #e81898;
+}
+
+/* ---------- VIEW ALL BUTTON ---------- */
+.view-btn {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 28px;
+}
+.view-btn button {
+  background: #9f0363;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.view-btn button:hover {
+  background: #070707;
+}
+
+/* ---------- GRID VIEW AFTER VIEW ALL ---------- */
+.bestsale-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+  margin-top: 25px;
+  justify-items: center;
+}
+
+/* ---------- SLIDER ARROWS ---------- */
+.slick-prev,
+.slick-next {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  font-size: 20px;
+}
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+.slick-track {
+  display: flex !important;
+}
+.slick-slide {
+  display: flex !important;
+}
+.slick-slide > div {
+  width: 100% !important;
+}
+
+@media(min-width:1100px){
+
+  .bestsale-container{
+    width: 100%;
+    padding: 0px 0;
+  }
+
+  .bestsale{
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .bestsale-header p.label{
+    font-size: 20px;
+  }
+
+  .bestsale-header h2{
+    font-size: 28px;
+    margin-top: -5px;
+  }
+  /* ----- Cards ----- */
+  .bestsale-card{
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .bestsale-image{
+    max-height: 170px;
+  }
+
+  .bestsale-content h3{
+    font-size: 16px;
+  }
+
+  .bestsale-content p{
+    font-size: 14px;
+  }
+
+  .rating{
+    font-size: 14px;
+  }
+
+  .addbtn{
+    font-size: 14px;
+    width: 130px;
+    height: 32px;
+  }
+
+  /* Gap reduce */
+  .bestsale-grid{
+    gap: 10px;
+  }
+
+  .view-btn button{
+    padding: 8px 18px;
+    font-size: 16px;
+  }
+
+}
+@media(max-width:1200px){
+  .bestsale-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .bestsale-image{
+    max-height: 180px;
+  }
+}
+@media(max-width:1000px){
+  .bestsale-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .bestsale-image{
+    max-height: 180px;
+  }
+}
+@media(max-width:992px){
+  .bestsale-grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .bestsale-image{
+    max-height: 180px;
+  }
+}
+
+@media(max-width:768px){
+  .bestsale-header{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+  }
+
+  .bestsale-container{
+    width: 95%;
+  }
+
+  .bestsale-grid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+  }
+
+  .bestsale-image{
+    max-height: 160px;
+  }
+}
+
+@media (max-width:576px) {
+  .bestsale-grid {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .bestsale-image {
+    max-height: 140px;
+  }
+  .addbtn {
+    font-size: 14px;
+    height: 30px;
+  }
+}
+
+@media(max-width:480px){
+  .bestsale-grid{
+    gap: 10px;
+  }
+
+  .bestsale-image{
+    max-height:120px;
+  }
+
+  .bestsale-content h3{
+    font-size: 14px;
+    height: 35px;
+  }
+
+  .addbtn{
+    width: 120px;
+    font-size: 13px;
+  }
+}
+@media(max-width:320px){
+
+  .bestsale-grid{
+    gap: 8px;
+  }
+
+  .bestsale-image{
+    max-height: 110px;
+  }
+
+  .bestsale-content h3{
+    font-size: 17px;
+    height: 32px;
+  }
+
+  .addbtn{
+   width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .bestsale-header{
+    padding: 10px 8px;   
+    text-align: center; 
+  }
+  .bestsale-header{
+      padding: 0;
+    margin: 0 auto;
+    align-items: center;
+  }
+   .bestsale-header h2{
+    font-size: 22px;
+    margin: 0;          
+  }
+
+  .bestsale-header .label{
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+.showall-wrapper{
+  position: relative;
+  width: 100%;
+  padding: 30px;
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: rgb(8, 8, 8);
+  border: none;
+  font-size: 28px;
+  font-weight: 500;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 20;
+  transition: 0.3s ease;
+    background:#f3f3f3;
+}
+
+.close-button:hover {
+  background: #e74d95;
+}

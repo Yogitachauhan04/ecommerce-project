@@ -1,0 +1,102 @@
+/* placeorder.css */
+
+.place-order-container {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background: #ffe6f0;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(255, 192, 203, 0.4);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.place-order-container h2 {
+  font-size: 28px;
+  color: #d63384;
+  margin-bottom: 25px;
+}
+
+.success-img {
+  width: 180px;
+  max-width: 80%;
+  margin-bottom: 20px;
+  animation: pop 0.6s ease forwards;
+}
+
+@keyframes pop {
+  0% { transform: scale(0); opacity: 0; }
+  60% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.place-order-container p {
+  font-size: 16px;
+  color: #7a1f5c;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.place-order-container button {
+  padding: 14px 0;
+  width: 100%;
+  font-size: 18px;
+  background: linear-gradient(135deg, #52042b, #ff3399);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.place-order-container button:hover {
+  background: linear-gradient(135deg, #ff3399, #ff1a75);
+}
+
+@media (max-width: 480px) {
+  .place-order-container {
+    margin: 20px 15px;
+    padding: 25px 15px;
+  }
+
+  .place-order-container h2 {
+    font-size: 24px;
+  }
+
+  .place-order-container p {
+    font-size: 14px;
+  }
+
+  .place-order-container button {
+    font-size: 16px;
+  }
+
+  .success-img {
+    width: 140px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place-order-container {
+    padding: 20px 10px;
+    border-radius: 12px;
+  }
+
+  .place-order-container h2 {
+    font-size: 22px;
+  }
+
+  .place-order-container p {
+    font-size: 13px;
+  }
+
+  .place-order-container button {
+    font-size: 15px;
+    padding: 12px 0;
+  }
+
+  .success-img {
+    width: 120px;
+  }
+}
