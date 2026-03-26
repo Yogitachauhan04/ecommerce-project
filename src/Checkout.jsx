@@ -1,4 +1,4 @@
-import "./checkout.css";
+import "./Checkout.css";
 import { useSelector } from "react-redux";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
