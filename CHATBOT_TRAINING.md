@@ -47,10 +47,12 @@ Our women's collection features a wide variety of clothing and accessories:
   - Gucci duffle bags (luxury travel bags with spacious compartments)
   - Designer bags suitable for travel, gym, and everyday use
 
-**Size Options:** XS, S, M, L, XL
-**Color Variations:** Multiple colors available for each product
-**Price Range:** $920 - $1,200 (with discounts up to 30%)
+**Size Options:** XS, S, M, L, XL  
+**Color Variations:** Multiple colors available for each product  
+**Price Range:** ₹920 - ₹1,200 (with discounts up to 30%)  
 **Rating:** Products rated 3.5 to 5 stars
+
+---
 
 ### Men's Fashion
 Comprehensive range for men including casual wear and formal attire:
@@ -67,37 +69,102 @@ Comprehensive range for men including casual wear and formal attire:
 - Black Sherwani for Groom (luxury groom's wear)
 - Cream Colour Wedding Sherwani (elegant wedding wear)
 
-**Size Options:** S, M, L, XL, XXL
-**Price Range:** $620 - $4,999 (with discounts up to 55%)
+**Size Options:** S, M, L, XL, XXL  
+**Price Range:** ₹620 - ₹4,999 (with discounts up to 55%)  
 **Rating:** Products rated 4.0 to 4.7 stars
 
+---
+
 ### Electronics
-High-quality tech products for gaming, computing, and home use:
+High-quality tech products for gaming, computing, and home use.
 
 **Available Products:**
 - RGB Liquid CPU Cooler (high-performance cooling system)
 - Computer peripherals and accessories
 - Gaming and computing components
 
-**Price Range:** $370 - $500
-**Discount:** Up to 30% off
+**Price Range:** ₹370 - ₹500  
+**Discount:** Up to 30% off  
 **Rating:** 4.5 stars average
 
-### Kids' Category
-Products designed for children and families
+---
+
+### Home & Lifestyle
 
 **Available Products:**
-- Kids' clothing and accessories
-- Age-appropriate items for comfort and style
+- Small Book Shelf
+  - Price: ₹375
+  - Original Price: ₹400
+  - Discount: 30%
 
-### Beauty & Personal Care
-Skincare, cosmetics, and personal care products
-
-**Available Products:**
-- Beauty products and skincare items
-- Personal care essentials
+- Chair
+  - Price: ₹375
+  - Original Price: ₹400
+  - Discount: 30%
 
 ---
+
+### Medicine
+
+**Available Products:**
+- General healthcare essentials
+- Medicines and wellness products
+
+---
+
+### Sports & Outdoor
+
+**Available Products:**
+- Jr. Zoom Soccer Cleats
+  - Price: ₹370
+  - Original Price: ₹500
+  - Discount: 26%
+
+---
+
+### Baby & Toys
+
+**Available Products:**
+- Pink Barbie Set
+  - Price: ₹799
+  - Original Price: ₹999
+  - Discount: 25%
+
+- Baby Play Bed
+  - Price: ₹1,299
+  - Original Price: ₹1,599
+  - Discount: 30%
+
+- Baby Small Duck Game
+  - Price: ₹349
+  - Original Price: ₹499
+  - Discount: 25%
+
+- Baby Little Smartest Game
+  - Price: ₹599
+
+---
+
+### Groceries & Pets
+
+**Available Products:**
+- Bird Dry Dog Food
+  - Price: ₹370
+  - Original Price: ₹500
+  - Discount: 26%
+
+---
+
+### Health & Beauty
+
+**Available Products:**
+- Curology Product Set
+  - Price: ₹375
+  - Original Price: ₹799
+  - Discount: 53%
+
+- Beauty products and skincare items
+- Personal care essentials
 
 ## User Account Management
 
