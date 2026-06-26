@@ -124,31 +124,28 @@ High-quality tech products for gaming, computing, and home use.
 
 ### Baby & Toys
 
-**Available Products:**
-- Pink Barbie Set
+
+**Pink Barbie Set**
   - Price: ₹799
   - Original Price: ₹999
   - Discount: 25%
 
-- Baby Play Bed
+**Baby Play Bed**
   - Price: ₹1,299
   - Original Price: ₹1,599
   - Discount: 30%
 
-- Baby Small Duck Game
+**Baby Small Duck Game**
   - Price: ₹349
   - Original Price: ₹499
   - Discount: 25%
-
-- Baby Little Smartest Game
-  - Price: ₹599
 
 ---
 
 ### Groceries & Pets
 
-**Available Products:**
-- Bird Dry Dog Food
+
+**Bird Dry Dog Food**
   - Price: ₹370
   - Original Price: ₹500
   - Discount: 26%
@@ -157,8 +154,7 @@ High-quality tech products for gaming, computing, and home use.
 
 ### Health & Beauty
 
-**Available Products:**
-- Curology Product Set
+**Curology Product Set**
   - Price: ₹375
   - Original Price: ₹799
   - Discount: 53%
